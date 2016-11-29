@@ -1,0 +1,30 @@
+#mpprecipe-container 
+{ 
+    -webkit-print-color-adjust:exact
+}
+#mpprecipe-container img
+{
+    max-width:70%; 
+}
+.hide-print
+{ 
+    background: none !important; 
+}
+#mpp-buttons,#mpp-buttons-2 
+{ 
+    display: none; 
+}
+#mpprecipe-container 
+{ 
+    width: 650px; 
+    margin-top:20px;  
+}
+#mpprecipe-container #mpp-printed-copyright-statement,#mpprecipe-container #mpp-printed-permalink
+{ 
+    display: block; 
+    border-top: 1px dotted black;  
+}
+.adunit, .adunitlabel, .adunitwrapper 
+{
+    display : none !important;
+}
